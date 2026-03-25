@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết user</title>
+    <link rel="stylesheet" href="public/css/style.css">
+    <style>
+        .detail-text {
+            flex-grow: 1;
+            font-weight: bold;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="index.html">Home</a> | <a href="login.html">Đăng xuất</a>
+        </div>
+        
+        <div class="main-content">
+            <div class="box">
+                <h2>Màn hình chi tiết</h2>
+                <div class="form-group" style="margin-bottom: 25px;">
+                    <label>Username</label>
+                    <div class="detail-text">test1</div>
+                </div>
+                <div class="form-group" style="margin-bottom: 25px;">
+                    <label>Email</label>
+                    <div class="detail-text">test1@gmail.com</div>
+                </div>
+                
+                <div class="actions" style="justify-content: flex-end; margin-top: 30px;">
+                    <button class="btn" onclick="window.location.href='update.html'">Chỉnh sửa</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            Lập trình web @01/2024
+        </div>
+    </div>
+</body>
+</html>
