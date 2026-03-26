@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Màn hình đăng nhập</title>
+    <link rel="stylesheet" href="public/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header-box">
+            <a href="index.html">Home</a> | <strong>Đăng nhập</strong> | <a href="register.html">Đăng ký</a>
+        </div>
+
+        <div class="content-box">
+            <h2>Màn hình đăng nhập</h2>
+            <form action="index.html" method="GET">
+                <div class="form-group">
+                    <label>Username</label>
+                    <input type="text" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label>Mật khẩu</label>
+                    <input type="password" name="password" required>
+                </div>
+                <div class="checkbox-group" style="justify-content: flex-start; margin-left: 120px;">
+                    <input type="checkbox" id="remember">
+                    <label for="remember" style="color: #333; width: auto;">Ghi nhớ đăng nhập</label>
+                </div>
+                <div class="form-actions">
+                    <a href="#">Quên mật khẩu</a>
+                    <button type="submit" class="btn-blue">Đăng nhập</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="footer-box">
+            Lập trình web @01/2024
+        </div>
+    </div>
+</body>
+</html>
