@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Màn hình chi tiết</title>
+    <link rel="stylesheet" href="public/css/style.css">
+    <style>
+        .detail-row {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-bottom: 30px;
+            text-align: left;
+            padding-left: 20%;
+        }
+        .detail-row label {
+            width: 120px;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header-box">
+            <a href="index.html">Home</a> | <a href="login.html">Đăng xuất</a>
+        </div>
+
+        <div class="content-box">
+            <h2>Màn hình chi tiết</h2>
+            <div class="detail-row">
+                <label>Username</label>
+                <span>test1</span>
+            </div>
+            <div class="detail-row">
+                <label>Email</label>
+                <span>test1@gmail.com</span>
+            </div>
+            <div class="form-actions" style="justify-content: flex-end;">
+                <button onclick="location.href='update.html'" class="btn-blue">Chỉnh sửa</button>
+            </div>
+        </div>
+
+        <div class="footer-box">
+            Lập trình web @01/2024
+        </div>
+    </div>
+</body>
+</html>
